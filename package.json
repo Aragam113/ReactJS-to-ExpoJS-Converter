@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert:styles": "node style-converter.js -i ./example/Login.js -o ./example/login-styles-only.js",
+    "convert:elements": "node element-converter.js -i ./example/Login.js -o ./example/login-elements-only.js",
+    "convert:imports": "node import-converter.js -i ./example/Login.js -o ./example/login-imports-only.js",
+    "convert:finalize": "node finalize-converter.js -i ./example/Login.js -o ./example/login-final.tsx",
+    "convert:all": "node index.js -i ./example/Login.js -o ./example/login-screen2.tsx"
   },
   "keywords": [],
   "author": "",

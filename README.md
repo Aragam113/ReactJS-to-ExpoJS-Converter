@@ -28,7 +28,39 @@
 ## Requirements
 - Node.js (v14 or higher)
 - NPM or Yarn installed
-
+- Project structure: 
+    ```angular2html
+   my-project/
+   ├── web-client/
+   │   ├── build/
+   │   ├── src/
+   │   │   ├── components/
+   │   │   ├── index.js
+   │   │   ├── App.js
+   │   │   ├── ...
+   │   ├── package.json
+   │   ├── ...
+   ├── expo-client/
+   │   ├── app/
+   │   │   ├── _layout.tsx
+   │   │   ├── home-screen.tsx
+   │   │   ├── profile-screen.tsx
+   │   │   ├── ...
+   │   ├── assets/
+   │   │   ├── fonts/
+   │   │   ├── images/
+   │   ├── package.json
+   │   ├── ...
+   ├── server/
+   │   ├── controllers/
+   │   ├── models/
+   │   ├── routes/
+   │   ├── index.js
+   │   ├── ...
+   ├── node_modules/
+   ├── package.json
+   └── ...
+  ```
 ---
 
 ## Installation
@@ -89,7 +121,39 @@ The **ReactJS to ExpoJS Converter** simplifies the transition from ReactJS to Re
 ### Требования
 - Node.js (v14 или выше)
 - Установленные NPM или Yarn
-
+- Структура проекта:
+    ```angular2html
+   my-project/
+   ├── web-client/
+   │   ├── build/
+   │   ├── src/
+   │   │   ├── components/
+   │   │   ├── index.js
+   │   │   ├── App.js
+   │   │   ├── ...
+   │   ├── package.json
+   │   ├── ...
+   ├── expo-client/
+   │   ├── app/
+   │   │   ├── _layout.tsx
+   │   │   ├── home-screen.tsx
+   │   │   ├── profile-screen.tsx
+   │   │   ├── ...
+   │   ├── assets/
+   │   │   ├── fonts/
+   │   │   ├── images/
+   │   ├── package.json
+   │   ├── ...
+   ├── server/
+   │   ├── controllers/
+   │   ├── models/
+   │   ├── routes/
+   │   ├── index.js
+   │   ├── ...
+   ├── node_modules/
+   ├── package.json
+   └── ...
+  ```
 ---
 
 ### Установка
